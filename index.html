@@ -8,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
 const SUPABASE_URL = "https://lyalbowhounuwavmbpwt.supabase.co";
-const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_g6ZT_WF0196YKzz-gbc-AQ_QOfrxFG";
+const SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx5YWxib3dob3VudXdhdm1icHd0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTIxNjQ2NDgsImV4cCI6MjEwNzc0MDY0OH0._7nxzhSZSAIRgoMMOwd94eYrlZ20IJQaykCo_AZv8AE";
 const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
 const cats=[["education","🎓","અભ્યાસ અને શિક્ષણ"],["jobs","💼","સરકારી નોકરી ભરતી"],["schemes","🏛️","સરકારી યોજનાઓ"],["farmer","🌾","ખેડૂત સહાય"],["online","📝","Online અરજી"],["courses","📚","કોર્સ"],["daily","📅","દૈનિક અપડેટ"],["about","ℹ️","અમારા વિશે"],["ads","📢","જાહેરાત"],["news","📰","NEWS"],["currentJobs","🔔","હાલમાં ચાલુ ભરતી"],["graduateJobs","🎯","ડિગ્રી પાસ ભરતી"],["results","📊","પરીક્ષા રિજલ્ટ"],["formCenter","🖥️","Online ફોર્મ Center"]].map(([id,icon,name])=>({id,icon,name}));
 let data={},current="dashboard",busy=false;
