@@ -1,0 +1,11 @@
+{
+  "name": "SHREE BILESHWER COMPUTERS",
+  "short_name": "SB Computers",
+  "description": "અભ્યાસ, ભરતી, સરકારી યોજનાઓ અને ઓનલાઇન સેવાઓ",
+  "start_url": "./public.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6fa",
+  "theme_color": "#102a43",
+  "icons": []
+}
